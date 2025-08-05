@@ -1,5 +1,3 @@
-package com.darshan;
-
 import java.util.ArrayList;
 
 public class DyanamicArray {

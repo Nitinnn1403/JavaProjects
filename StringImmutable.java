@@ -1,5 +1,3 @@
-package com.darshan;
-
 public class StringImmutable {
 	String name="Darshan";
 		

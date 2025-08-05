@@ -1,5 +1,3 @@
-package com.darshan;
-
 class Calculator{
 	Calculator(int a,int b) {
 		int sum= a+b;

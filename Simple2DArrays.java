@@ -1,5 +1,3 @@
-package com.darshan;
-
 public class Simple2DArrays {
 
 	public static void main(String[] args) {

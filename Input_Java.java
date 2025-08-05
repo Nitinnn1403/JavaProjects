@@ -1,5 +1,3 @@
-package com.darshan;
-
 import java.util.Scanner;
 
 public class Input_Java {

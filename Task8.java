@@ -1,4 +1,3 @@
-package com.darshan;
 import java.util.Scanner;
 public class Task8 {
 

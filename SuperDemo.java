@@ -1,5 +1,3 @@
-package com.darshan;
-
 class parent{
 	void car() {
 		System.out.println("BMW");

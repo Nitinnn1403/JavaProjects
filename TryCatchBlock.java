@@ -1,4 +1,3 @@
-package com.darshan;
 //Exception Handling Case
 public class TryCatchBlock {
 

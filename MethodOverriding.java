@@ -1,5 +1,3 @@
-package com.darshan;
-
 class Animal{
 	public void sound() {
 		System.out.println("Animal Makes Sound");

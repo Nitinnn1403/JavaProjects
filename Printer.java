@@ -1,5 +1,3 @@
-package com.darshan;
-
 class print{
 	public String InkJetPrinter(String IJP) {
 		return IJP;

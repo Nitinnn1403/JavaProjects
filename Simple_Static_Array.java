@@ -1,5 +1,3 @@
-package com.darshan;
-
 public class Simple_Static_Array {
 
 	public static void main(String[] args) {

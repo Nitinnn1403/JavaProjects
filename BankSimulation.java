@@ -1,5 +1,3 @@
-package com.darshan;
-
 abstract class BankAccount{
 	abstract void calculateIntrest();
 	

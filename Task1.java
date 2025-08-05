@@ -1,5 +1,3 @@
-package com.darshan;
-
 import java.util.Scanner;
 
 public class Task1 {
@@ -13,7 +11,7 @@ public class Task1 {
 		int age=obj.nextInt();
 		obj.close();
 		System.out.println("Your Name Is:"+ name);
-		System.out.println("Your Phone Number Is:"+ Phone Number);
+		// System.out.println("Your Phone Number Is:"+ PhoneNumber);
 			
 
 	}

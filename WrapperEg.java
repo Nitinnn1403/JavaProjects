@@ -1,5 +1,3 @@
-package com.darshan;
-
 public class WrapperEg {
 
 	public static void main(String[] args) {
