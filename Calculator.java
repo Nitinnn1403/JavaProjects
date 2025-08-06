@@ -1,21 +1,30 @@
-class Calculator{
-	Calculator(int a,int b) {
-		int sum= a+b;
-		System.out.println("Addition"+ sum);
-	}
-	Calculator(int a,int b,boolean multiply){
-		int multiplication= a*b;
-		System.out.println("Multiplication" + multiplication);
-	}
-	Calculator(double a,double b){
-		double substraction = a-b;
-		System.out.println("Subsytraction" + substraction);
-	}
-//public class Calculator {
-
-	public static void main(String[] args) {
-		Calculator obj1= new Calculator(2,5);
-		Calculator obj2= new Calculator(23,34,true);
-		Calculator obj3= new Calculator(45.2,23.3);
-		}
+// write a java program to demonstrate method overloading with a class calculator.
+class Calculator {
+    public int add(int a, int b) {
+        return a + b;
+    } 
+    public int add(int a, int b, int c) {
+        return a + b + c;
+    }
+    public double add(double a, double b) {
+        return a + b;
+    }
+    public double add(double a, double b, double c) {
+        return a + b + c;
+    }
+    public String add(String a, String b) {
+        return a + b;
+    }
+    public String add(String a, String b, String c) {
+        return a + b + c;
+    }
+    public static void main(String[] args) {
+        Calculator calc = new Calculator();
+        System.out.println("Sum of 5 and 10: " + calc.add(5, 10));
+        System.out.println("Sum of 5, 10, and 15: " + calc.add(5, 10, 15));
+        System.out.println("Sum of 5.5 and 10.5: " + calc.add(5.5, 10.5));
+        System.out.println("Sum of 5.5, 10.5, and 15.5: " + calc.add(5.5, 10.5, 15.5));
+        System.out.println("Concatenation of 'Hello' and ' World': " + calc.add("Hello", " World"));
+        System.out.println("Concatenation of 'Hello', ' World', and '!': " + calc.add("Hello", " World", "!"));
+    }
 }
