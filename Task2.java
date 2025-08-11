@@ -17,6 +17,7 @@ public class Task2 {
 				fruitlist.add(fruit);
 			}
 		}
+		sc.close();
 		System.out.println("Fruits in basket" + fruitlist);
 		System.out.println("Fruit Count"+ fruitlist.size());
 		

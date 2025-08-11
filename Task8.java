@@ -8,12 +8,13 @@ public class Task8 {
 	    int num2=sc.nextInt();
 	    try {
 	    	int res=num1/num2;
+			System.out.println("Result of Division: " + res);
 	    } catch (Exception e) {
 	    	System.out.println("Cannot Divide Any Number By Zero");
 	    }finally {
 	    	System.out.println("Thank You For Using our Calculator");
 	    }
-		
+		sc.close();
 	}
 
 }

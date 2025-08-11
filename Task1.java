@@ -10,7 +10,7 @@ public class Task1 {
 		
 		int age=obj.nextInt();
 		obj.close();
-		System.out.println("Your Name Is:"+ name);
+		System.out.println("Your Name and Age Is:"+ name + age);
 		// System.out.println("Your Phone Number Is:"+ PhoneNumber);
 			
 
