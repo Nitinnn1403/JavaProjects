@@ -1,5 +1,6 @@
 // write a java program to demonstrate the use of "super" keyword to call the parent class constructor and methods.
 import java.util.*;
+
 class Animal {
     String name;
     Animal(String name) {
