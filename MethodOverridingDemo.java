@@ -1,4 +1,5 @@
 // Create a java program to show methods overriding using a superclass animal and subclass DOG.
+import java.util.*;
 class Animal {
     void sound() {
         System.out.println("Animal makes a sound");
